@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/home/mingqis0403/Vector_ptr_practice/main.cpp
+iostream
+-
+vector
+-
+sum_vect.h
+/home/mingqis0403/Vector_ptr_practice/sum_vect.h
+
 /home/mingqis0403/Vector_ptr_practice/sum_vect.cpp
 sum_vect.h
 /home/mingqis0403/Vector_ptr_practice/sum_vect.h
