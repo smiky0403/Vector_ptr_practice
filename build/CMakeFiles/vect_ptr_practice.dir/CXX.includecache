@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mingqis0403/Vector_ptr_practice/sum_vect.cpp
+sum_vect.h
+/home/mingqis0403/Vector_ptr_practice/sum_vect.h
+
+/home/mingqis0403/Vector_ptr_practice/sum_vect.h
+vector
+-
+
