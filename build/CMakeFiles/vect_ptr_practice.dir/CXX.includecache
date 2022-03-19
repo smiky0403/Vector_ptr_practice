@@ -11,14 +11,22 @@ iostream
 -
 vector
 -
-sum_vect.h
-/home/mingqis0403/Vector_ptr_practice/sum_vect.h
-
-/home/mingqis0403/Vector_ptr_practice/sum_vect.cpp
-sum_vect.h
-/home/mingqis0403/Vector_ptr_practice/sum_vect.h
+vector_tests.h
+/home/mingqis0403/Vector_ptr_practice/vector_tests.h
 
 /home/mingqis0403/Vector_ptr_practice/sum_vect.h
 vector
 -
+
+/home/mingqis0403/Vector_ptr_practice/vector_tests.cpp
+vector_tests.h
+/home/mingqis0403/Vector_ptr_practice/vector_tests.h
+
+/home/mingqis0403/Vector_ptr_practice/vector_tests.h
+iostream
+-
+vector
+-
+sum_vect.h
+/home/mingqis0403/Vector_ptr_practice/sum_vect.h
 

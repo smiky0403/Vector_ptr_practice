@@ -3,7 +3,12 @@
 
 CMakeFiles/vect_ptr_practice.dir/main.cpp.o: ../main.cpp
 CMakeFiles/vect_ptr_practice.dir/main.cpp.o: ../sum_vect.h
+CMakeFiles/vect_ptr_practice.dir/main.cpp.o: ../vector_tests.h
 
 CMakeFiles/vect_ptr_practice.dir/sum_vect.cpp.o: ../sum_vect.cpp
 CMakeFiles/vect_ptr_practice.dir/sum_vect.cpp.o: ../sum_vect.h
+
+CMakeFiles/vect_ptr_practice.dir/vector_tests.cpp.o: ../sum_vect.h
+CMakeFiles/vect_ptr_practice.dir/vector_tests.cpp.o: ../vector_tests.cpp
+CMakeFiles/vect_ptr_practice.dir/vector_tests.cpp.o: ../vector_tests.h
 

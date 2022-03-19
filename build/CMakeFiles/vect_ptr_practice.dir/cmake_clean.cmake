@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/vect_ptr_practice.dir/main.cpp.o"
   "CMakeFiles/vect_ptr_practice.dir/sum_vect.cpp.o"
+  "CMakeFiles/vect_ptr_practice.dir/vector_tests.cpp.o"
   "vect_ptr_practice"
   "vect_ptr_practice.pdb"
 )

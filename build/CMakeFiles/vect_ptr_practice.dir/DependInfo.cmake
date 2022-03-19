@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/mingqis0403/Vector_ptr_practice/main.cpp" "/home/mingqis0403/Vector_ptr_practice/build/CMakeFiles/vect_ptr_practice.dir/main.cpp.o"
   "/home/mingqis0403/Vector_ptr_practice/sum_vect.cpp" "/home/mingqis0403/Vector_ptr_practice/build/CMakeFiles/vect_ptr_practice.dir/sum_vect.cpp.o"
+  "/home/mingqis0403/Vector_ptr_practice/vector_tests.cpp" "/home/mingqis0403/Vector_ptr_practice/build/CMakeFiles/vect_ptr_practice.dir/vector_tests.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

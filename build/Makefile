@@ -574,6 +574,33 @@ sum_vect.cpp.s:
 	$(MAKE) -f CMakeFiles/vect_ptr_practice.dir/build.make CMakeFiles/vect_ptr_practice.dir/sum_vect.cpp.s
 .PHONY : sum_vect.cpp.s
 
+vector_tests.o: vector_tests.cpp.o
+
+.PHONY : vector_tests.o
+
+# target to build an object file
+vector_tests.cpp.o:
+	$(MAKE) -f CMakeFiles/vect_ptr_practice.dir/build.make CMakeFiles/vect_ptr_practice.dir/vector_tests.cpp.o
+.PHONY : vector_tests.cpp.o
+
+vector_tests.i: vector_tests.cpp.i
+
+.PHONY : vector_tests.i
+
+# target to preprocess a source file
+vector_tests.cpp.i:
+	$(MAKE) -f CMakeFiles/vect_ptr_practice.dir/build.make CMakeFiles/vect_ptr_practice.dir/vector_tests.cpp.i
+.PHONY : vector_tests.cpp.i
+
+vector_tests.s: vector_tests.cpp.s
+
+.PHONY : vector_tests.s
+
+# target to generate assembly for a file
+vector_tests.cpp.s:
+	$(MAKE) -f CMakeFiles/vect_ptr_practice.dir/build.make CMakeFiles/vect_ptr_practice.dir/vector_tests.cpp.s
+.PHONY : vector_tests.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -620,6 +647,9 @@ help:
 	@echo "... sum_vect.o"
 	@echo "... sum_vect.i"
 	@echo "... sum_vect.s"
+	@echo "... vector_tests.o"
+	@echo "... vector_tests.i"
+	@echo "... vector_tests.s"
 .PHONY : help
 
 
