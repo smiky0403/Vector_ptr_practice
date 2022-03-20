@@ -547,6 +547,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/vect_ptr_practice.dir/build.make CMakeFiles/vect_ptr_practice.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+readBoardFiles.o: readBoardFiles.cpp.o
+
+.PHONY : readBoardFiles.o
+
+# target to build an object file
+readBoardFiles.cpp.o:
+	$(MAKE) -f CMakeFiles/vect_ptr_practice.dir/build.make CMakeFiles/vect_ptr_practice.dir/readBoardFiles.cpp.o
+.PHONY : readBoardFiles.cpp.o
+
+readBoardFiles.i: readBoardFiles.cpp.i
+
+.PHONY : readBoardFiles.i
+
+# target to preprocess a source file
+readBoardFiles.cpp.i:
+	$(MAKE) -f CMakeFiles/vect_ptr_practice.dir/build.make CMakeFiles/vect_ptr_practice.dir/readBoardFiles.cpp.i
+.PHONY : readBoardFiles.cpp.i
+
+readBoardFiles.s: readBoardFiles.cpp.s
+
+.PHONY : readBoardFiles.s
+
+# target to generate assembly for a file
+readBoardFiles.cpp.s:
+	$(MAKE) -f CMakeFiles/vect_ptr_practice.dir/build.make CMakeFiles/vect_ptr_practice.dir/readBoardFiles.cpp.s
+.PHONY : readBoardFiles.cpp.s
+
 sum_vect.o: sum_vect.cpp.o
 
 .PHONY : sum_vect.o
@@ -644,6 +671,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... readBoardFiles.o"
+	@echo "... readBoardFiles.i"
+	@echo "... readBoardFiles.s"
 	@echo "... sum_vect.o"
 	@echo "... sum_vect.i"
 	@echo "... sum_vect.s"

@@ -39,7 +39,7 @@ void printVectorCheck()
     int sum_v2_3x = Sum1DVector(v2_3[2]); cout << "sum of v2_3 3rd row is after plus 1 each : " << sum_v2_3x << "\n"; // should be 7 + 8 + 9 * 10  + 3= 108
 
     //If-else, while random practice
-    if( 5 > 3){ cout << " 5 > 3 should always be true" <<"\n";} else{ cout << "5 > 3 false should never ever happen" << "\n";}
+    if( 5 > 3){ cout << " 5 > 3 should always be true" <<"\n";} else{ cout << "5  >  3 false should never ever happen" << "\n";}
     int ii = 0; while(ii < 10 ){if(ii % 2){cout << ii << " ";} ii++;} cout << "\n";
 
 }

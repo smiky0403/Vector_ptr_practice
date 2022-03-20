@@ -6,6 +6,11 @@
 },
 {
   "directory": "/home/mingqis0403/Vector_ptr_practice/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/vect_ptr_practice.dir/readBoardFiles.cpp.o -c /home/mingqis0403/Vector_ptr_practice/readBoardFiles.cpp",
+  "file": "/home/mingqis0403/Vector_ptr_practice/readBoardFiles.cpp"
+},
+{
+  "directory": "/home/mingqis0403/Vector_ptr_practice/build",
   "command": "/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/vect_ptr_practice.dir/sum_vect.cpp.o -c /home/mingqis0403/Vector_ptr_practice/sum_vect.cpp",
   "file": "/home/mingqis0403/Vector_ptr_practice/sum_vect.cpp"
 },

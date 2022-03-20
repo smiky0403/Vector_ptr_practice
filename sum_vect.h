@@ -1,3 +1,4 @@
+#pragma once
 #ifndef SUM_VECT_H
 #define SUM_VECT_H
 

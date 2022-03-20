@@ -6,7 +6,7 @@ enable_testing()
 
 
 file(GLOB vector_practice_SRC
-     "*.cpp"
+     "*.cpp", "Files"
 )
 
 add_executable(vect_ptr_practice ${vector_practice_SRC})
@@ -14,3 +14,5 @@ add_executable(vect_ptr_practice ${vector_practice_SRC})
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
+
+

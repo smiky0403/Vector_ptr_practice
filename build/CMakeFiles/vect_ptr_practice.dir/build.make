@@ -70,9 +70,22 @@ CMakeFiles/vect_ptr_practice.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vect_ptr_practice.dir/main.cpp.s"
 	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mingqis0403/Vector_ptr_practice/main.cpp -o CMakeFiles/vect_ptr_practice.dir/main.cpp.s
 
+CMakeFiles/vect_ptr_practice.dir/readBoardFiles.cpp.o: CMakeFiles/vect_ptr_practice.dir/flags.make
+CMakeFiles/vect_ptr_practice.dir/readBoardFiles.cpp.o: ../readBoardFiles.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingqis0403/Vector_ptr_practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/vect_ptr_practice.dir/readBoardFiles.cpp.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vect_ptr_practice.dir/readBoardFiles.cpp.o -c /home/mingqis0403/Vector_ptr_practice/readBoardFiles.cpp
+
+CMakeFiles/vect_ptr_practice.dir/readBoardFiles.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vect_ptr_practice.dir/readBoardFiles.cpp.i"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mingqis0403/Vector_ptr_practice/readBoardFiles.cpp > CMakeFiles/vect_ptr_practice.dir/readBoardFiles.cpp.i
+
+CMakeFiles/vect_ptr_practice.dir/readBoardFiles.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vect_ptr_practice.dir/readBoardFiles.cpp.s"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mingqis0403/Vector_ptr_practice/readBoardFiles.cpp -o CMakeFiles/vect_ptr_practice.dir/readBoardFiles.cpp.s
+
 CMakeFiles/vect_ptr_practice.dir/sum_vect.cpp.o: CMakeFiles/vect_ptr_practice.dir/flags.make
 CMakeFiles/vect_ptr_practice.dir/sum_vect.cpp.o: ../sum_vect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingqis0403/Vector_ptr_practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/vect_ptr_practice.dir/sum_vect.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingqis0403/Vector_ptr_practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/vect_ptr_practice.dir/sum_vect.cpp.o"
 	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vect_ptr_practice.dir/sum_vect.cpp.o -c /home/mingqis0403/Vector_ptr_practice/sum_vect.cpp
 
 CMakeFiles/vect_ptr_practice.dir/sum_vect.cpp.i: cmake_force
@@ -85,7 +98,7 @@ CMakeFiles/vect_ptr_practice.dir/sum_vect.cpp.s: cmake_force
 
 CMakeFiles/vect_ptr_practice.dir/vector_tests.cpp.o: CMakeFiles/vect_ptr_practice.dir/flags.make
 CMakeFiles/vect_ptr_practice.dir/vector_tests.cpp.o: ../vector_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingqis0403/Vector_ptr_practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/vect_ptr_practice.dir/vector_tests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingqis0403/Vector_ptr_practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/vect_ptr_practice.dir/vector_tests.cpp.o"
 	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vect_ptr_practice.dir/vector_tests.cpp.o -c /home/mingqis0403/Vector_ptr_practice/vector_tests.cpp
 
 CMakeFiles/vect_ptr_practice.dir/vector_tests.cpp.i: cmake_force
@@ -99,6 +112,7 @@ CMakeFiles/vect_ptr_practice.dir/vector_tests.cpp.s: cmake_force
 # Object files for target vect_ptr_practice
 vect_ptr_practice_OBJECTS = \
 "CMakeFiles/vect_ptr_practice.dir/main.cpp.o" \
+"CMakeFiles/vect_ptr_practice.dir/readBoardFiles.cpp.o" \
 "CMakeFiles/vect_ptr_practice.dir/sum_vect.cpp.o" \
 "CMakeFiles/vect_ptr_practice.dir/vector_tests.cpp.o"
 
@@ -106,11 +120,12 @@ vect_ptr_practice_OBJECTS = \
 vect_ptr_practice_EXTERNAL_OBJECTS =
 
 vect_ptr_practice: CMakeFiles/vect_ptr_practice.dir/main.cpp.o
+vect_ptr_practice: CMakeFiles/vect_ptr_practice.dir/readBoardFiles.cpp.o
 vect_ptr_practice: CMakeFiles/vect_ptr_practice.dir/sum_vect.cpp.o
 vect_ptr_practice: CMakeFiles/vect_ptr_practice.dir/vector_tests.cpp.o
 vect_ptr_practice: CMakeFiles/vect_ptr_practice.dir/build.make
 vect_ptr_practice: CMakeFiles/vect_ptr_practice.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingqis0403/Vector_ptr_practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable vect_ptr_practice"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingqis0403/Vector_ptr_practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable vect_ptr_practice"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vect_ptr_practice.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
